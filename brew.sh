@@ -49,6 +49,9 @@ brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
 
+# Cask requirements (aircrack-ng)
+brew cask install java
+
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install aircrack-ng
 brew install bfg
@@ -77,7 +80,6 @@ brew install xz
 
 # Install other useful binaries.
 brew install ack
-#brew install exiv2
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
@@ -92,6 +94,10 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+
+# Casks
+brew cask install visual-studio-code
+brew cask install google-chrome
 
 # Remove outdated versions from the cellar.
 brew cleanup
