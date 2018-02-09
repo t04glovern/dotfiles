@@ -49,8 +49,10 @@ brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
 
-# Cask requirements (aircrack-ng)
+# Cask/brew requirements
 brew cask install java
+brew install maven
+brew install jenv
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install aircrack-ng
@@ -95,13 +97,23 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
-# Casks
+# General Casks
+brew cask install transmission
 brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install dropbox
 brew cask install sourcetree
 brew cask install cisco-spark
+brew cask install keybase
+brew cask install istat-menus
+brew cask install timing
+brew cask install gitkraken
+
+# JetBrains Professional Casks
+brew cask install intellij-idea
+brew cask install pycharm
+brew cask install webstorm
 
 # Remove outdated versions from the cellar.
 brew cleanup
