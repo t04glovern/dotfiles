@@ -149,3 +149,7 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Proxy control (dependent on location changer scripts)
+alias proxy_on='source ~/.scripts/proxy_on.sh'
+alias proxy_off='source ~/.scripts/proxy_off.sh'

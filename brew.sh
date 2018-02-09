@@ -99,6 +99,8 @@ brew install zopfli
 brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install iterm2
+brew cask install dropbox
+brew cask install sourcetree
 
 # Remove outdated versions from the cellar.
 brew cleanup
