@@ -101,6 +101,7 @@ brew cask install google-chrome
 brew cask install iterm2
 brew cask install dropbox
 brew cask install sourcetree
+brew cask install cisco-spark
 
 # Remove outdated versions from the cellar.
 brew cleanup
