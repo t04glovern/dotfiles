@@ -99,18 +99,25 @@ brew install zopfli
 
 # General Casks
 brew cask install transmission
-brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install dropbox
-brew cask install sourcetree
 brew cask install cisco-spark
 brew cask install keybase
 brew cask install istat-menus
+brew cask install intel-power-gadget
 brew cask install timing
 brew cask install gitkraken
+brew cask install private-internet-access
+brew cask install parallels
+brew cask install vlc
 
-# JetBrains Professional Casks
+# Developer Tools - General
+brew cask install visual-studio-code
+brew cask install sourcetree
+brew cask install ganache
+
+# Developer Tools - JetBrains Professional
 brew cask install intellij-idea
 brew cask install pycharm
 brew cask install webstorm
