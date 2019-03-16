@@ -151,3 +151,11 @@ alias path='echo -e ${PATH//:/\\n}'
 
 # Brew Update / Cleanup
 alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
+
+# Docker Elastic
+alias elastic_stack_up='docker-compose -f ~/.scripts/elasticsearch/es-docker-compose.yml up -d'
+alias elastic_stack_down='docker-compose -f ~/.scripts/elasticsearch/es-docker-compose.yml down -v'
+
+# Docker Open Elastic
+alias open_elastic_stack_up='docker-compose -f ~/.scripts/elasticsearch/od-es-docker-compose.yml up -d'
+alias open_elastic_stack_down='docker-compose -f ~/.scripts/elasticsearch/od-es-docker-compose.yml down -v'

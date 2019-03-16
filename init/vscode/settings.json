@@ -1,0 +1,43 @@
+{
+    "gitlens.keymap": "chorded",
+    "workbench.startupEditor": "newUntitledFile",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": true,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default Light+",
+    // Custom tags for the parser to use
+    "yaml.customTags": [
+        "!fn",
+        "!And",
+        "!If",
+        "!Not",
+        "!Equals sequence",
+        "!Or",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!GetAtt sequence",
+        "!GetAZs",
+        "!ImportValue",
+        "!Select",
+        "!Split",
+        "!Join sequence",
+        "!Select sequence"
+    ],
+    // Enable/disable default YAML formatter (requires restart)
+    "yaml.format.enable": true,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "workbench.settings.editor": "json",
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}
