@@ -11,6 +11,9 @@ function doIt() {
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
+        --exclude "brew.sh" \
+        --exclude "brew-cask.sh" \
+        --exclude "init/vscode/" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 }
