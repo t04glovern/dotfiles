@@ -18,9 +18,6 @@
 # iTerm shell integrations (relies on shell integration script being run from iTerm2 menu)
 #test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
-# Tools
-#export PATH="$PATH:${HOME}/.tools"
-
 # Flutter
 #export PATH="$HOME/Projects/misc/flutter/bin:$PATH"
 #export FLUTTER_ROOT="$HOME/Projects/misc/flutter"
