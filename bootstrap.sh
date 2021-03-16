@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-cd $(dirname ${BASH_SOURCE[0]:-${(%):-%x}}) || exit;
-cd ..
+cd "$(dirname "${BASH_SOURCE}")";
+
 git pull origin main;
 
 function doIt() {
