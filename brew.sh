@@ -47,5 +47,16 @@ brew install ack
 brew install git
 brew install git-lfs
 
+# Casks
+brew install --cask dropbox
+brew install --cask google-chrome
+brew install --cask intel-power-gadget
+brew install --cask istat-menus
+brew install --cask iterm2
+brew install --cask signal
+brew install --cask transmission
+brew install --cask visual-studio-code
+brew install --cask vlc
+
 # Remove outdated versions from the cellar.
 brew cleanup
