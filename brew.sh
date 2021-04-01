@@ -36,6 +36,7 @@ brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
+brew install --cask gpg-suite
 
 # Install more recent versions of some macOS tools.
 brew install grep
